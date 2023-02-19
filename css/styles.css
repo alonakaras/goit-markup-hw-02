@@ -52,6 +52,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  cursor: pointer;
 
   box-sizing: border-box;
   display: flex;
@@ -121,6 +122,8 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+
+  cursor: pointer;
 }
 /* ---------main page philosophy section styles------------------ */
 .philosophy {
