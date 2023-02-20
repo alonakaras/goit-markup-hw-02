@@ -32,6 +32,7 @@ body {
 }
 .header-list-link {
   text-decoration: none;
+  color: #2e2f42;
 }
 .header-address {
   font-style: normal;
@@ -42,6 +43,7 @@ body {
 }
 .header-address-link {
   text-decoration: none;
+  color: #434455;
 }
 /* ------------- portfolio page main styles--------------- */
 .portfolio {
