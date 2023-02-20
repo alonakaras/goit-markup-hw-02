@@ -1,8 +1,10 @@
 body {
   font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  background-color: #ffffff;
 }
 /* ---------------- header styles--------------- */
 .header {
@@ -10,63 +12,62 @@ body {
 .header-nav {
 }
 .header-logo {
-  width: 44px;
-  height: 24px;
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.header-logo-span {
   color: #4d5ae5;
 }
 .header-list {
   font-weight: 500;
+  font-style: normal;
 }
 .header-list-item {
 }
 .header-list-link {
+  text-decoration: none;
 }
 .header-address {
+  font-style: normal;
 }
 .header-address-list {
 }
 .header-address-item {
 }
 .header-address-link {
+  text-decoration: none;
 }
 /* ------------- portfolio page main styles--------------- */
 .portfolio {
 }
+
+.list {
+  list-style: none;
+}
+
 .portfolio-list {
 }
 .portfolio-list-item {
 }
 .portfolio-list-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
-
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
-
-  width: 101px;
-  height: 48px;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
 }
+.portfolio-list-btn:hover,
+.portfolio-list-btn:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
 .portfolio-cards {
 }
 .portfolio-cards-item {
@@ -85,17 +86,20 @@ body {
 }
 /* -------------  footer styles------------- */
 .footer {
+  background-color: #2e2f42;
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  text-decoration: none;
+}
+.footer-logo-span {
+  color: #4d5ae5;
 }
 .footer-desc {
   color: #e7e9fc;
@@ -108,22 +112,16 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 .hero-btn {
-  width: 105px;
-  height: 24px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 /* ---------main page philosophy section styles------------------ */
 .philosophy {
