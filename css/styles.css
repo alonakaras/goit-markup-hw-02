@@ -4,10 +4,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
+}
+:root {
+  --header-nav-color: #2e2f42;
+  --header-address-color: #434455;
+  --main-title-color: #2e2f42;
+  --secondary-title-color: #434455;
+  --accent-color: #4d5ae5;
+  --background-color: #e5e5e5;
 }
 /* ---------------- header styles--------------- */
 .header {
+  background-color: #ffffff;
 }
 .header-nav {
 }
@@ -32,7 +40,7 @@ body {
 }
 .header-list-link {
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--header-nav-color);
 }
 .header-address {
   font-style: normal;
@@ -43,10 +51,11 @@ body {
 }
 .header-address-link {
   text-decoration: none;
-  color: #434455;
+  color: var(--header-address-color);
 }
 /* ------------- portfolio page main styles--------------- */
 .portfolio {
+  background-color: var(--background-color);
 }
 
 .list {
@@ -60,8 +69,11 @@ body {
 .portfolio-list-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--accent-color);
+  background-color: #e7e9fc;
   cursor: pointer;
 }
 .portfolio-list-btn:hover,
@@ -70,10 +82,13 @@ body {
   color: #ffffff;
 }
 
-.portfolio-cards {
+.portfolio-link {
 }
-.portfolio-cards-item {
+.portfolio-link-item {
 }
+.portfolio-card {
+}
+
 .portfolio-cards-img {
 }
 .portfolio-cards-title {
@@ -81,10 +96,10 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .portfolio-cards-desc {
-  color: #434455;
+  color: var(--secondary-title-color);
 }
 /* -------------  footer styles------------- */
 .footer {
@@ -119,6 +134,8 @@ body {
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -127,6 +144,7 @@ body {
 }
 /* ---------main page philosophy section styles------------------ */
 .philosophy {
+  background-color: var(--background-color);
 }
 .philosophy-list {
 }
@@ -137,13 +155,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .philosophy-item-desc {
-  color: #434455;
+  color: var(--secondary-title-color);
 }
 /* ------------main page what section styles--------------------------- */
 .what {
+  background-color: var(--background-color);
 }
 .what-title {
   font-weight: 700;
@@ -151,7 +170,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .what-list {
 }
@@ -159,6 +178,7 @@ body {
 }
 /* ------------main page team section styles---------------------------- */
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -166,7 +186,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .team-list {
 }
@@ -177,8 +197,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .team-item-desc {
-  color: #434455;
+  color: var(--secondary-title-color);
 }
