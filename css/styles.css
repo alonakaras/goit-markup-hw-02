@@ -1,9 +1,9 @@
 body {
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 :root {
   --header-nav-color: #2e2f42;
@@ -11,11 +11,10 @@ body {
   --main-title-color: #2e2f42;
   --secondary-title-color: #434455;
   --accent-color: #4d5ae5;
-  --background-color: #e5e5e5;
+  --hero-footer-backgroud-color: #2e2f42;
 }
 /* ---------------- header styles--------------- */
 .header {
-  background-color: #ffffff;
 }
 .header-nav {
 }
@@ -32,15 +31,21 @@ body {
 .header-logo-span {
   color: #4d5ae5;
 }
+.header-logo:hover,
+.header-logo:focus {
+}
+
 .header-list {
-  font-weight: 500;
-  font-style: normal;
 }
 .header-list-item {
+  font-weight: 500;
 }
 .header-list-link {
   text-decoration: none;
   color: var(--header-nav-color);
+}
+.header-list-link:hover,
+.header-list-link:focus {
 }
 .header-address {
   font-style: normal;
@@ -53,9 +58,11 @@ body {
   text-decoration: none;
   color: var(--header-address-color);
 }
+.header-address-link:hover,
+.header-address-linl:focus {
+}
 /* ------------- portfolio page main styles--------------- */
 .portfolio {
-  background-color: var(--background-color);
 }
 
 .list {
@@ -82,11 +89,13 @@ body {
   color: #ffffff;
 }
 
-.portfolio-link {
+.portfolio-link:hover,
+.portfolio-link:focus {
 }
 .portfolio-link-item {
 }
 .portfolio-card {
+  text-decoration: none;
 }
 
 .portfolio-cards-img {
@@ -103,7 +112,7 @@ body {
 }
 /* -------------  footer styles------------- */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--hero-footer-backgroud-color);
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -123,7 +132,7 @@ body {
 }
 /* --------main page hero section styles----------------------- */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--hero-footer-backgroud-color);
 }
 .hero-title {
   font-weight: 700;
@@ -132,7 +141,8 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.hero-btn {
+.hero-btn:hover,
+.hero-btn:focus {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -144,7 +154,6 @@ body {
 }
 /* ---------main page philosophy section styles------------------ */
 .philosophy {
-  background-color: var(--background-color);
 }
 .philosophy-list {
 }
@@ -162,7 +171,6 @@ body {
 }
 /* ------------main page what section styles--------------------------- */
 .what {
-  background-color: var(--background-color);
 }
 .what-title {
   font-weight: 700;
